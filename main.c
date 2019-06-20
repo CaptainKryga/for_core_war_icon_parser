@@ -77,7 +77,7 @@ int     main()
 	win->img = mlx_new_image(win->mlx, 18, 18);
 
 	t_texture *massa;
-	massa = get_texture("/Users/jbashiri/Desktop/icon3/texture.bmp");
+	massa = get_texture("/Users/jbashiri/Desktop/for_core_war_icon_parser/texture.bmp");
 	write(1, "--------------------\n", 21);
 	while (x < massa->w * massa->h)
 		ft_printf("%d,", massa->pixels[x++]);
